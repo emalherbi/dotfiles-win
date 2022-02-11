@@ -11,8 +11,6 @@ $ git clone https://github.com/emalherbi/dotfiles-win.git && cd dotfiles-win && 
 
 ```
 => Chocolatey ✔
-=> Flash Player Plugin ✔
-=> Flash Player ActiveX ✔
 => Java SE ✔
 => Java SE Runtime Environment ✔
 => 7-Zip ✔
@@ -39,10 +37,11 @@ $ git clone https://github.com/emalherbi/dotfiles-win.git && cd dotfiles-win && 
 => TortoiseSVN ✔
 => Git ✔
 => TortoiseGit ✔
-=> Atom ✔
-=> Aptana Studio ✔
 => Node JS ✔
 => Android Studio ✔
+=> DBeaver ✔
+=> Screenpresso ✔
+=> Spotify ✔
 ```
 
 Contributors

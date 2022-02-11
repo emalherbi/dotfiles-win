@@ -29,21 +29,21 @@ echo ===========================================================================
 SET /P OPALL=Install All Programs? (y/n):
 echo ===============================================================================
 
-rem ------------------------------------- Install Flash Player Plugin
+@REM rem ------------------------------------- Install Flash Player Plugin
 
-SET TITLE=Flash Player Plugin
-SET PACKAGE=flashplayerplugin
-SET PROGRAM=flashplayerplugin
+@REM SET TITLE=Flash Player Plugin
+@REM SET PACKAGE=flashplayerplugin
+@REM SET PROGRAM=flashplayerplugin
 
-call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
-rem ------------------------------------- Install Flash Player ActiveX
+@REM rem ------------------------------------- Install Flash Player ActiveX
 
-SET TITLE=Flash Player ActiveX
-SET PACKAGE=flashplayeractivex
-SET PROGRAM=flashplayeractivex
+@REM SET TITLE=Flash Player ActiveX
+@REM SET PACKAGE=flashplayeractivex
+@REM SET PROGRAM=flashplayeractivex
 
-call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
 rem ------------------------------------- Install Java SE
 
@@ -261,21 +261,21 @@ SET PROGRAM=python2
 
 call chocolatey/install.bat
 
-rem ------------------------------------- Install Atom
+@REM rem ------------------------------------- Install Atom
 
-:: SET TITLE=Atom
-:: SET PACKAGE=atom
-:: SET PROGRAM=atom
+@REM SET TITLE=Atom
+@REM SET PACKAGE=atom
+@REM SET PROGRAM=atom
 
-:: call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
-rem ------------------------------------- Install Aptana Studio
+@REM rem ------------------------------------- Install Aptana Studio
 
-:: SET TITLE=Aptana Studio
-:: SET PACKAGE=aptana-studio
-:: SET PROGRAM=aptana-studio
+@REM SET TITLE=Aptana Studio
+@REM SET PACKAGE=aptana-studio
+@REM SET PROGRAM=aptana-studio
 
-:: call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
 rem ------------------------------------- Install Vs Code
 
