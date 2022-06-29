@@ -15,40 +15,29 @@ $ git clone https://github.com/emalherbi/dotfiles-win.git && cd dotfiles-win && 
 => Java SE Runtime Environment ✔
 => 7-Zip ✔
 => WinRAR ✔
-=> HWMonitor ✔
 => CCleaner ✔
-=> Skype ✔
-=> Spark ✔
-=> Psi ✔
 => Google Chrome ✔
-=> Firefox ✔
 => Google Drive ✔
-=> Dropbox ✔
 => ownCloud ✔
-=> LibreOffice ✔
 => Adobe Reader DC ✔
 => PDF Creator ✔
 => Notepad++ ✔
 => TeamViewer ✔
-=> Ammyy Admin ✔
 => FileZilla ✔
 => Compare It ✔
 => Inno Setup ✔
 => TortoiseSVN ✔
 => Git ✔
+=> Git CLI ✔
 => TortoiseGit ✔
+=> Python 3 ✔
+=> Vs Code ✔
 => Node JS ✔
 => Android Studio ✔
 => DBeaver ✔
 => Screenpresso ✔
 => Spotify ✔
 ```
-
-Contributors
-------------
-
-- [Carlos Linhares](https://plus.google.com/117393571272273909691/posts)
-- [Matheus Gallina](https://plus.google.com/107142612493773758504/posts)
 
 ## License
 

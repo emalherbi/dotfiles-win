@@ -77,13 +77,13 @@ SET PROGRAM=winrar
 
 call chocolatey/install.bat
 
-rem ------------------------------------- Install HWMonitor
+@REM rem ------------------------------------- Install HWMonitor
 
-SET TITLE=HWMonitor
-SET PACKAGE=hwmonitor
-SET PROGRAM=hwmonitor
+@REM SET TITLE=HWMonitor
+@REM SET PACKAGE=hwmonitor
+@REM SET PROGRAM=hwmonitor
 
-call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
 rem ------------------------------------- Install CCleaner
 
@@ -93,29 +93,29 @@ SET PROGRAM=ccleaner
 
 call chocolatey/install.bat
 
-rem ------------------------------------- Install Skype
+@REM rem ------------------------------------- Install Skype
 
-SET TITLE=Skype
-SET PACKAGE=Skype
-SET PROGRAM=skype
+@REM SET TITLE=Skype
+@REM SET PACKAGE=Skype
+@REM SET PROGRAM=skype
 
-call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
-rem ------------------------------------- Install Spark
+@REM rem ------------------------------------- Install Spark
 
-SET TITLE=Spark
-SET PACKAGE=spark
-SET PROGRAM=spark
+@REM SET TITLE=Spark
+@REM SET PACKAGE=spark
+@REM SET PROGRAM=spark
 
-call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
-rem ------------------------------------- Install Psi
+@REM rem ------------------------------------- Install Psi
 
-SET TITLE=Psi
-SET PACKAGE=psi
-SET PROGRAM=psi
+@REM SET TITLE=Psi
+@REM SET PACKAGE=psi
+@REM SET PROGRAM=psi
 
-call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
 rem ------------------------------------- Install Google Chrome
 
@@ -125,13 +125,13 @@ SET PROGRAM=googlechrome
 
 call chocolatey/install.bat
 
-rem ------------------------------------- Install Firefox
+@REM rem ------------------------------------- Install Firefox
 
-SET TITLE=Firefox
-SET PACKAGE=Firefox
-SET PROGRAM=firefox
+@REM SET TITLE=Firefox
+@REM SET PACKAGE=Firefox
+@REM SET PROGRAM=firefox
 
-call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
 rem ------------------------------------- Install Google Drive
 
@@ -141,13 +141,13 @@ SET PROGRAM=googledrive
 
 call chocolatey/install.bat
 
-rem ------------------------------------- Install Dropbox
+@REM rem ------------------------------------- Install Dropbox
 
-SET TITLE=Dropbox
-SET PACKAGE=dropbox
-SET PROGRAM=dropbox
+@REM SET TITLE=Dropbox
+@REM SET PACKAGE=dropbox
+@REM SET PROGRAM=dropbox
 
-call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
 rem ------------------------------------- Install ownCloud
 
@@ -157,13 +157,13 @@ SET PROGRAM=owncloud-client
 
 call chocolatey/install.bat
 
-rem ------------------------------------- Install LibreOffice
+@REM rem ------------------------------------- Install LibreOffice
 
-SET TITLE=LibreOffice
-SET PACKAGE=libreoffice
-SET PROGRAM=libreoffice
+@REM SET TITLE=LibreOffice
+@REM SET PACKAGE=libreoffice
+@REM SET PROGRAM=libreoffice
 
-call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
 rem ------------------------------------- Install Adobe Reader DC
 
@@ -197,13 +197,13 @@ SET PROGRAM=teamviewer
 
 call chocolatey/install.bat
 
-rem ------------------------------------- Install Ammyy Admin
+@REM rem ------------------------------------- Install Ammyy Admin
 
-SET TITLE=Ammyy Admin
-SET PACKAGE=ammyy-admin
-SET PROGRAM=ammyy-admin
+@REM SET TITLE=Ammyy Admin
+@REM SET PACKAGE=ammyy-admin
+@REM SET PROGRAM=ammyy-admin
 
-call chocolatey/install.bat
+@REM call chocolatey/install.bat
 
 rem ------------------------------------- Install FileZilla
 
@@ -245,6 +245,14 @@ SET PROGRAM=git
 
 call chocolatey/install.bat
 
+rem ------------------------------------- Install GitHub CLI
+
+SET TITLE=GitHub CLI 
+SET PACKAGE=gh
+SET PROGRAM=gh
+
+call chocolatey/install.bat
+
 rem ------------------------------------- Install TortoiseGit
 
 SET TITLE=TortoiseGit
@@ -253,11 +261,11 @@ SET PROGRAM=tortoisegit
 
 call chocolatey/install.bat
 
-rem ------------------------------------- Install Python 2
+rem ------------------------------------- Install Python 3
 
-SET TITLE=Python 2
-SET PACKAGE=python2
-SET PROGRAM=python2
+SET TITLE=Python 3
+SET PACKAGE=python3
+SET PROGRAM=python3
 
 call chocolatey/install.bat
 
@@ -324,6 +332,14 @@ SET PACKAGE=spotify
 SET PROGRAM=spotify
 
 call chocolatey/install.bat
+
+@REM rem ------------------------------------- Install Toggl
+
+@REM SET TITLE=Toggl Pomodoro
+@REM SET PACKAGE=toggl
+@REM SET PROGRAM=toggl
+
+@REM call chocolatey/install.bat
 
 rem ------------------------------------- Finish
 
